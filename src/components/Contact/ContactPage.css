@@ -1,0 +1,95 @@
+.contact-page-container {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+.contact-page-container h2 {
+  font-family: "Bruno Ace", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.contact-page img {
+  width: 65%;
+}
+
+.contact-left {
+  display: flex;
+  justify-content: center;
+}
+.contact-right {
+  width: 75%;
+}
+.contact-page form {
+  align-items: center;
+}
+
+/* input styling */
+.contact-right form .a {
+  margin-right: 4%;
+}
+.contact-right form .a,
+.contact-right form .b {
+  width: 48%;
+}
+.contact-right form .c,
+.contact-right form .d {
+  width: 100%;
+}
+
+.contact-right form .email-input,
+.contact-right form textarea {
+  font-family: "Bruno Ace", sans-serif;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  color: var(--purple);
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 8px 6px;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.contact-page {
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page {
+    grid-template-columns: 1fr;
+  }
+  .contact-left,
+  .contact-right {
+    margin: 1rem auto;
+  }
+  .contact-right form .a,
+  .contact-right form .b {
+    width: 100%;
+  }
+}
+
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Bruno Ace", cursive;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  padding: 0.7rem 3rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 6px 10px 6px;
+  background: linear-gradient(to right, #857e7e, #000000);
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
+  background: linear-gradient(to right, #948c8c, #111111);
+  transform: scale(0.99);
+}

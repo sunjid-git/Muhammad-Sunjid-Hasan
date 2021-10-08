@@ -1,96 +1,34 @@
-.contact-page-container {
-  padding: 2rem;
-  min-height: 80vh;
-}
-
-.contact-page-container h2 {
-  font-family: "Bruno Ace", sans-serif;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bolder;
-}
-.contact-page img {
-  width: 65%;
-}
-
-.contact-left {
-  display: flex;
-  justify-content: center;
-}
-.contact-right {
-  width: 75%;
-}
-.contact-page form {
-  align-items: center;
-}
-
-/* input styling */
-.contact-right form .a {
-  margin-right: 4%;
-}
-.contact-right form .a,
-.contact-right form .b {
-  width: 48%;
-}
-.contact-right form .c,
-.contact-right form .d {
+.contact-main-container {
+  background-color: #1e1e1e;
   width: 100%;
-}
-
-.contact-right form .email-input,
-.contact-right form textarea {
-  font-family: "Bruno Ace", sans-serif;
-  padding: 0.8rem;
-  border: none;
-  outline: none;
-  color: var(--purple);
-  box-shadow: rgba(0, 0, 0, 0.15) 3px 8px 6px;
-  margin-bottom: 1.5rem;
-  border-radius: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.contact-page {
+  min-height: 35vh;
   display: grid;
-  width: 90%;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 3rem;
+  place-items: center;
+  padding: 3.5rem;
 }
-
-@media screen and (max-width: 768px) {
-  .contact-page {
-    grid-template-columns: 1fr;
-  }
-  .contact-left,
-  .contact-right {
-    margin: 1rem auto;
-  }
-  .contact-right form .a,
-  .contact-right form .b {
-    width: 100%;
-  }
+.contact-main-container h4 {
+  color: rgb(255, 255, 255);
 }
-
-
-
-.button {
+.contact-main-container p {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 25%;
+}
+.contact-me-btn {
   text-decoration: none;
   cursor: pointer;
-  font-family: "Bruno Ace", cursive;
   font-weight: bolder;
   outline: none;
   border: none;
-  padding: 0.7rem 3rem;
-  border-radius: 8px;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
   font-size: 1rem;
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.25) 10px 15px 10px;
-  background: linear-gradient(to right, #857e7e, #000000);
-  transition:  all .5s ease-in-out;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+  text-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
 }
 
-.button:hover {
-  box-shadow: rgba(0, 0, 0, 0.15) 10px 6px 10px;
-  background: linear-gradient(to right, #948c8c, #111111);
+.contact-me-btn:hover {
+  color: black;
+  transform: scale(0.98);
 }

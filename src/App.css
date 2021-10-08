@@ -40,5 +40,8 @@ a{
   background-clip: text;
   color: transparent;
   font-family: "Bruno Ace", sans-serif;
+  /* text-shadow: rgba(0, 0, 0, 0.15) 6px 15px 6px; */
   text-shadow: rgba(0, 0, 0, 0.15) 6px 15px 6px;
 }
+
+
