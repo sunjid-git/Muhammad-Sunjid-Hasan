@@ -30,5 +30,15 @@ a{
 }
 
 .contact-page-container {
-  background-color: rgba(228, 232, 233, 0.35);
+  background-color: #e4e8e959;
+}
+
+
+/* For text bg Coloring */
+.text-color{
+  background-image: linear-gradient(to right, #d3d1d1, #000000);
+  background-clip: text;
+  color: transparent;
+  font-family: "Bruno Ace", sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.15) 6px 15px 6px;
 }

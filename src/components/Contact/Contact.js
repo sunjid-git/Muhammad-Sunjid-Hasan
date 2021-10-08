@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div className="contact-page-container">
-      <h2>Get in touch!</h2>
+      <h2 className="text-color">Get in touch!</h2>
       <div className="contact-page">
         <div className="contact-left">
           <img src={contact} alt="" />

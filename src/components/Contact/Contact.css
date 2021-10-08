@@ -8,10 +8,6 @@
   text-align: center;
   font-size: 2.5rem;
   font-weight: bolder;
-  color: var(--purple);
-  background-image: linear-gradient(to right, #55e7fc, #001f41);
-  background-clip: text;
-  color: transparent;
 }
 .contact-page img {
   width: 65%;
@@ -48,7 +44,7 @@
   border: none;
   outline: none;
   color: var(--purple);
-  box-shadow: rgba(0, 0, 0, 0.15) 3px 4px 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 8px 6px;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   font-size: 0.9rem;
@@ -76,13 +72,7 @@
   }
 }
 
-/* For text bg Coloring */
-.bg-text {
-  background-image: linear-gradient(to right, #55e7fc, #001f41);
-  background-clip: text;
-  color: transparent;
-  font-family: "Bruno Ace", sans-serif;
-}
+
 
 .button {
   text-decoration: none;
@@ -95,11 +85,12 @@
   border-radius: 8px;
   font-size: 1rem;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 6px 10px 6px;
-  background: linear-gradient(to right, #04c8f6, #116fc7);
+  box-shadow: rgba(0, 0, 0, 0.25) 10px 15px 10px;
+  background: linear-gradient(to right, #857e7e, #000000);
+  transition:  all .5s ease-in-out;
 }
 
 .button:hover {
-  box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
-  background: linear-gradient(to right, #116fc7, #04c8f6);
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 6px 10px;
+  background: linear-gradient(to right, #948c8c, #111111);
 }
