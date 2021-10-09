@@ -16,6 +16,7 @@ function App() {
         <Route path="/home" component={Home} />
         <Route path="/project" component={Project} />
         <Route path="/blog" component={Blog} />
+        <Route path="//blog-collection" component={Blog} />
         <Route path="/contact" component={Contact} />
         <Route path="/contactPage" component={ContactPage} />
       </Switch>

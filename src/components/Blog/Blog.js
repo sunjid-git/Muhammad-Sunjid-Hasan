@@ -1,21 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import blog from "../assests/blog.json";
+import { Link } from "react-router-dom";
+import BlogThree from "./BlogThree";
+
 const Blog = () => {
+  
   const threeBlog = blog.slice(0, 3);
-  const [blogs, setBlogs] = useState(threeBlog);
-  useEffect(() => {
-    setBlogs(blogs);
-  }, []);
-  // console.log("Effect Blogs - ",blogs);
+  // console.log("Effect Blogs - ", threeBlog);
 
   return (
     <div className="blog-main-container">
-      Blog : {blogs.length}
+      <p>Blog</p>
       <div className="blog-container">
-      {
-          blogs.map(blog=> <li>{blog.blogName}</li>)
-      }
+        {threeBlog.map((blog) => (
+          <BlogThree blog={blog} key={blog.id}></BlogThree>
+        ))}
       </div>
+      <Link to="/blog-collection" className="common-btn resume-btn">
+        More Blogs
+      </Link>
     </div>
   );
 };
