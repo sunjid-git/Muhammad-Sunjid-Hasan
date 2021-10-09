@@ -38,7 +38,6 @@ a{
   background-color: #e4e8e959;
 }
 
-
 /* For text bg Coloring */
 .text-color{
   background-image: linear-gradient(to right, #d3d1d1, #000000);
@@ -47,9 +46,6 @@ a{
   font-family: "Bruno Ace", sans-serif;
   text-shadow: rgba(0, 0, 0, 0.15) 6px 15px 6px;
 }
-
-
-
 
 
 /* CSS */

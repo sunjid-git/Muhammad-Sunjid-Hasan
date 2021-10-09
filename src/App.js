@@ -7,6 +7,7 @@ import Project from "./components/Project/Project";
 import About from "./components/About/About";
 import Footer from "./components/HeaderFooter/Footer";
 import ContactPage from './components/Contact/ContactPage';
+import Blog from "./components/Blog/Blog";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/project" component={Project} />
+        <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
         <Route path="/contactPage" component={ContactPage} />
       </Switch>

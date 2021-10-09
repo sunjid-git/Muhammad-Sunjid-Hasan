@@ -8,8 +8,8 @@ const HomePage = () => {
     <div className="home-page">
       <div className="text-container">
         <p className="font-a">Hello,</p>
-        <p>I'M SUNJID</p>
-        <p className="text-typing-effect">Engineer | Web Developer</p>
+        <p className="font-t">I'M SUNJID</p>
+        <p className="text-typing-effect font-t">Engineer | Web Developer</p>
         <div className="btn-div">
         <Link to="/contact" className="common-btn talk-btn">Let's Talk</Link>
         <Link
