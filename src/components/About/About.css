@@ -28,6 +28,7 @@
 .about-text h2 {
   font-weight: 750;
   font-size: 1.8rem;
+  text-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
 }
 
 .text-title {

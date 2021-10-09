@@ -29,7 +29,7 @@ const About = () => {
           }}
           target="_blank"
           className="common-btn resume-btn"
-        ><i class="fas fa-cloud-download-alt fa-lg"></i>
+        ><i className="fas fa-cloud-download-alt fa-lg"></i>
            Resume
         </Link>
       </div>

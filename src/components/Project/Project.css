@@ -1,0 +1,11 @@
+.project-main-container{
+    background-color: rgb(238, 241, 243);
+    padding: 3%;
+}
+
+.project-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}

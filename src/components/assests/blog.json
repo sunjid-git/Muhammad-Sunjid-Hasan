@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "blogName": "Let’s learn some fundamentals of React!",
+    "link": "https://sunjid-web.medium.com/lets-learn-some-fundamentals-of-react-fdcb74f27147"
+  },
+  {
+    "id": 2,
+    "blogName": "Learn the basics of data types and uses of operators in JavaScript",
+    "link": "https://sunjid-web.medium.com/learn-the-basics-of-data-types-and-uses-of-operators-in-javascript-71f9e6a8592d"
+  },
+  {
+    "id": 3,
+    "blogName": "Frequently asked React JS Interview Questions and Answers",
+    "link": "https://sunjid-web.medium.com/commonly-asked-react-interview-questions-c05462bdd41f"
+  },
+  {
+    "id": 4,
+    "blogName": "Commonly Asked Javascript Interview Questions",
+    "link": "https://sunjid-web.medium.com/commonly-asked-javascript-interview-questions-8efadbf0f19e"
+  },
+  {
+    "id": 5,
+    "blogName": "16 Most Important HTML Interview Questions & Answers",
+    "link": "https://sunjid-web.medium.com/commonly-asked-html-interview-questions-81d18f4ef49c"
+  },
+  {
+    "id": 6,
+    "blogName": "Most Helpful CSS Interview Questions & Answers",
+    "link": "https://sunjid-web.medium.com/commonly-asked-css-interview-questions-370f7b63e549"
+  },
+  {
+    "id": 7,
+    "blogName": "mongoDB Interview Questions and Answers",
+    "link": "https://sunjid-web.medium.com/commonly-asked-mongodb-interview-questions-2c5510ff3e4e"
+  },
+  {
+    "id": 8,
+    "blogName": "Commonly Asked Node.js Interview Questions",
+    "link": "https://sunjid-web.medium.com/commonly-asked-node-js-interview-questions-691fbf486fa8"
+  },
+  {
+    "id": 9,
+    "blogName": "Some basic Problem Solving in Javascript",
+    "link": "https://sunjid-web.medium.com/some-basic-problem-solving-in-javascript-152630ce5a4b"
+  },
+  {
+    "id": 10,
+    "blogName": "10 Most commonly used Javascript string methods",
+    "link": "https://sunjid-web.medium.com/10-most-commonly-used-javascript-string-methods-eac3dfb5e914"
+  }
+]
