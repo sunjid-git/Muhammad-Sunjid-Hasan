@@ -1,0 +1,47 @@
+.about-container {
+  width: 80%;
+  margin: -4rem auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.15) 6px 15px 6px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 2.5rem 1rem;
+  margin-bottom: 5%;
+}
+.about-container .about-img {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .about-text {
+  flex: 4;
+  margin-left: 3rem;
+}
+
+.about-container .about-img img {
+  height: 12rem;
+}
+
+.about-text h2 {
+  font-weight: 750;
+  font-size: 1.8rem;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    margin: 1rem auto;
+  }
+
+  .about-container .about-img {
+    margin-bottom: 1rem;
+  }
+}

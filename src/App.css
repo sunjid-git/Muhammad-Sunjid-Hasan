@@ -30,6 +30,11 @@
   box-sizing: border-box;
 }
 
+/*  font awesome icon*/
+.fas{
+  margin-right: 1rem;
+}
+
 a{
   text-decoration: none;
 }
@@ -60,6 +65,29 @@ a{
   font-size: .9rem;
   max-width: 10rem;
   width: 100%;
+}
+
+
+/* home page  ---- & ----- about */
+.talk-btn {
+  background-color: #f5f5f5;
+  color: #383639;
+  border: 0.1rem solid #383639;
+  transition: all 0.5s ease-in-out;
+}
+.talk-btn:hover {
+  background-color: #383639;
+  color: #f5f5f5;
+}
+.resume-btn {
+  background-color: #383639;
+  color: #f5f5f5;
+  border: 0.1rem solid #383639;
+  transition: all 0.5s ease-in-out;
+}
+.resume-btn:hover {
+  background-color: #f5f5f5;
+  color: #383639;
 }
 
 

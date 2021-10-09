@@ -18,9 +18,9 @@ const HomePage = () => {
               "https://drive.google.com/file/d/1qiRPUCdlLNBYOn4VJIU563RO64uawqY-/view",
           }}
           target="_blank"
-          className="common-btn cv-btn"
+          className="common-btn resume-btn"
         >
-          Download CV
+          Resume
         </Link>
         </div>
       </div>
