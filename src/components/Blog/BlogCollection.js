@@ -4,7 +4,7 @@ import "./BlogCollection.css";
 import blog from "../assests/blog.json";
 
 import { Link } from "react-router-dom";
-import BlogThree from "./BlogPass";
+
 import BlogPass from "./BlogPass";
 
 const BlogCollection = () => {

@@ -7,11 +7,7 @@ const Project = () => {
     <div className="project-main-container">
       <div className="project-container">
         <div className="project-container-text">
-          <p>Projects</p>
-          <p>
-            Here are some of my works. If you find them interesting, you can
-            also visit my project works.
-          </p>
+          <p className="font-t"><i className="fas fa-tools fa-lg"></i>Project</p>
         </div>
         <div className="project-case">
           <ThreeProject />

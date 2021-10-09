@@ -11,20 +11,21 @@ const Blog = () => {
 
   return (
     <div className="three-blog-container">
-      <div className="three-blog-container-inner text-center">
-      
-        <p className="blog-title p-2">
+      <div className="three-blog-container-inner ">
+        <h2 className="blog-title pt-3 font-t">
           <i className="fas fa-pen-alt fa-lg"></i>Blog
-        </p>
+        </h2>
 
-        <div className="loaded-blog">
-          {threeBlog.map((blog) => (
-            <BlogPass blog={blog} key={blog.id}></BlogPass>
-          ))}
+        <div className="three-blog-manage text-center mt-4">
+          <div className="loaded-blog mb-4">
+            {threeBlog.map((blog) => (
+              <BlogPass blog={blog} key={blog.id}></BlogPass>
+            ))}
+          </div>
+          <Link to="/blog-collection" className="common-btn resume-btn">
+            <i className="fas fa-book fa-lg"></i>More Blogs
+          </Link>
         </div>
-        <Link to="/blog-collection" className="common-btn resume-btn">
-          <i className="fas fa-book fa-lg"></i>More Blogs
-        </Link>
       </div>
     </div>
   );

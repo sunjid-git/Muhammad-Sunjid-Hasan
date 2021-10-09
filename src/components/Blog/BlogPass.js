@@ -9,13 +9,13 @@ const BlogPass = (props) => {
   // console.log(blog);
   // console.log(link);
   return (
-    <div className="card mx-2" style={{ width: "20rem" }}>
+    <div className="card mx-4" style={{ width: "20rem" }}>
       <div className="card-body">
         <h5 className="card-title">{blog}</h5>
         <Link
           to={{ pathname: `${link}` }}
           target="_blank"
-          className="common-btn resume-btn"
+          className="common-btn resume-btn my-2 "
         >
           Read
         </Link>

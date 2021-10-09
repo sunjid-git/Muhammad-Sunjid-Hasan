@@ -22,11 +22,7 @@ footer p:nth-child(2){
   font-size: 1.1rem;
 }
 
-footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .social-links a i {
   color: #a19b9b;
   font-size: 2.7rem;
