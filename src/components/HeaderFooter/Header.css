@@ -4,7 +4,9 @@
 .navbar-expand-lg {
   box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
 }
-
+.navbar-brand a{
+  font-weight: bolder;
+}
 /* hover effect */
 ul li a {
   font-weight: bolder;

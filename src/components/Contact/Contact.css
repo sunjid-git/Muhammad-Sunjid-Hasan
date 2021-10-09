@@ -22,13 +22,13 @@
   padding: 0.7rem 2rem;
   border-radius: 5px;
   font-size: 1rem;
-  color: rgb(0, 0, 0);
+  color: #383639;
   background-color: white;
   transition: all 0.5s ease-in-out;
   text-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
 }
 
 .contact-me-btn:hover {
-  color: black;
+  color: #383639;
   transform: scale(0.98);
 }

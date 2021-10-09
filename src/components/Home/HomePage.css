@@ -1,0 +1,133 @@
+.home-page {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10%;
+  align-items: center;
+  background-color: rgb(238, 241, 243);
+}
+
+.text-container {
+  flex: 4;
+}
+
+.home-pic {
+  flex: 2;
+}
+
+.talk-btn {
+  background-color: #f5f5f5;
+  color: #383639;
+  border: 0.1rem solid #383639;
+  transition: all 0.5s ease-in-out;
+}
+.talk-btn:hover {
+  background-color: #383639;
+  color: #f5f5f5;
+}
+.cv-btn {
+  background-color: #383639;
+  color: #f5f5f5;
+  border: 0.1rem solid #383639;
+  transition: all 0.5s ease-in-out;
+}
+.cv-btn:hover {
+  background-color: #f5f5f5;
+  color: #383639;
+}
+
+.home-pic img {
+  height: 25rem;
+  transform: rotate(2.5deg);
+  animation: moveTheIcon 8s ease-in-out infinite alternate;
+}
+
+@keyframes moveTheIcon {
+  50% {
+    transform: translateY(1rem) rotate(-2.5deg) scale(0.95);
+  }
+}
+
+.text-container p:nth-child(1) {
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 2rem;
+}
+.text-container p:nth-child(2) {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #383639;
+  font-size: 4rem;
+}
+.text-container p:nth-child(3) {
+  font-family: myriad pro regular;
+  color: #403e3e;
+  font-size: 2.3rem;
+  line-height: 2.3rem;
+}
+
+.text-container p {
+  margin: 45px 0px 25px;
+  line-height: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5% 10%;
+    align-items: center;
+  }
+
+  .home-pic img {
+    height: 20rem;
+  }
+  .text-container p:nth-child(2) {
+    font-weight: bold;
+    color: #383639;
+    font-size: 2rem;
+  }
+  .text-container p:nth-child(3) {
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 1.3rem;
+    line-height: 1rem;
+  }
+  .btn-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* typing effect */
+.text-typing-effect {
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 8s steps(25, end) infinite forwards,
+    blink 1s infinite alternate;
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #383639;
+  }
+
+  
+}
