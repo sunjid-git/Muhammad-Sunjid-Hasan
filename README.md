@@ -1,8 +1,8 @@
-# `Hi, This is Muhammad Sunjid Hasan`
+### `Hi, This is Muhammad Sunjid Hasan`... <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;  Glad to meet you... 
 
-# [Portfolio Website](https://sunjid.netlify.app/)... <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
+# [Portfolio Website](https://sunjid.netlify.app/)
  
 ## `Functionality`
 1. Home
