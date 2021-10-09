@@ -1,24 +1,31 @@
 import React from "react";
+import "./Blog.css";
+
 import blog from "../assests/blog.json";
 import { Link } from "react-router-dom";
-import BlogThree from "./BlogThree";
+import BlogPass from "./BlogPass";
 
 const Blog = () => {
-  
   const threeBlog = blog.slice(0, 3);
   // console.log("Effect Blogs - ", threeBlog);
 
   return (
-    <div className="blog-main-container">
-      <p>Blog</p>
-      <div className="blog-container">
-        {threeBlog.map((blog) => (
-          <BlogThree blog={blog} key={blog.id}></BlogThree>
-        ))}
+    <div className="three-blog-container">
+      <div className="three-blog-container-inner text-center">
+      
+        <p className="blog-title p-2">
+          <i className="fas fa-pen-alt fa-lg"></i>Blog
+        </p>
+
+        <div className="loaded-blog">
+          {threeBlog.map((blog) => (
+            <BlogPass blog={blog} key={blog.id}></BlogPass>
+          ))}
+        </div>
+        <Link to="/blog-collection" className="common-btn resume-btn">
+          <i className="fas fa-book fa-lg"></i>More Blogs
+        </Link>
       </div>
-      <Link to="/blog-collection" className="common-btn resume-btn">
-        More Blogs
-      </Link>
     </div>
   );
 };

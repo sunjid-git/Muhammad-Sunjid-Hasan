@@ -45,7 +45,7 @@ a{
 
 /* For text bg Coloring */
 .text-color{
-  background-image: linear-gradient(to right, #d3d1d1, #000000);
+  background-image: linear-gradient(to right, #a7a1a1, #000000);
   background-clip: text;
   color: transparent;
   font-family: "Bruno Ace", sans-serif;
@@ -63,8 +63,10 @@ a{
   padding: .7rem 1rem;
   margin: .5rem 0.8rem 0 0;
   font-size: .9rem;
-  max-width: 10rem;
+  max-width: 11rem;
   width: 100%;
+  display: inline-block;
+  text-align: center;
   box-shadow: rgba(0, 0, 0, 0.15) 5px 10px 5px;
 }
 

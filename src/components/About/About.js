@@ -32,6 +32,15 @@ const About = () => {
         ><i className="fas fa-cloud-download-alt fa-lg"></i>
            Resume
         </Link>
+
+        {/* <Link
+          to="/education"
+          className="common-btn talk-btn"
+        > <i class="fas fa-user-graduate fa-lg"></i>
+           Education
+        </Link> */}
+
+       
       </div>
     </div>
   );

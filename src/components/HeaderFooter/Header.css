@@ -1,7 +1,9 @@
 .container-fluid {
   width: 80%;
+  
 }
 .navbar-expand-lg {
+  background-color: #F5F5F5;
   box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
 }
 .navbar-brand a{

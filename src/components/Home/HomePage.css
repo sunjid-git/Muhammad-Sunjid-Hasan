@@ -5,7 +5,8 @@
   flex-direction: row;
   padding: 0 10%;
   align-items: center;
-  background-color: rgb(238, 241, 243);
+  /* background-color: rgb(238, 241, 243); */
+  background-color: #F5F5F5;
 }
 
 .text-container {
