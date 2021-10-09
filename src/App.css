@@ -24,8 +24,6 @@
 }
 
 
-
-
 *{
   margin: 0;
   padding: 0;
@@ -52,24 +50,17 @@ a{
 
 
 
-.common-btn{
-  background-color: #000000;
-  margin-right: 1rem;
-  height: 2rem;
-}
 
 
 /* CSS */
 .common-btn {
-  background-color: #222;
   border-radius: 6px;
   border-style: none;
-  color: #fff;
   cursor: pointer;
   font-family: "Bruno Ace", sans-serif;
   outline: none;
-  padding: .7rem 1.2rem;
-  margin: .5rem auto;
+  padding: .7rem 1rem;
+  margin: .5rem 0.8rem 0 0;
   font-size: .9rem;
   max-width: 10rem;
   width: 100%;
