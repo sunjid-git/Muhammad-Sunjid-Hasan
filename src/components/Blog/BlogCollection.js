@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./BlogCollection.css";
 import blog from "../assests/blog.json";
 
 import BlogPass from "./BlogPass";
