@@ -1,13 +1,12 @@
 import React from "react";
+
 import "./BlogCollection.css";
-
 import blog from "../assests/blog.json";
-
-import { Link } from "react-router-dom";
 
 import BlogPass from "./BlogPass";
 
 const BlogCollection = () => {
+  
   const restBlog = blog.slice(3, 9);
   // console.log('restBlog', restBlog);
   // console.log('length', restBlog.length);

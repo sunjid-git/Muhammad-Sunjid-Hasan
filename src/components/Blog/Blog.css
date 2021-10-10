@@ -1,3 +1,4 @@
+/* ------------------------ Blog ---------------------------- */
 .three-blog-container {
   padding: 3% 0;
 }
@@ -13,7 +14,6 @@
     text-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
   }
 
-
 .loaded-blog {
   width: 100%;
   display: grid;
@@ -28,5 +28,20 @@
     height: 100%;
    
     grid-template-columns: 1fr;
+  }
+}
+
+
+/* ------------------------ BlogPass ---------------------------- */
+.card-body{
+  background-color: #F5F5F5;
+}
+
+
+/* ------------------------ BlogCollection ---------------------------- */
+
+@media screen and (max-width: 768px) {
+  .blog-title{
+   text-align: center;
   }
 }
