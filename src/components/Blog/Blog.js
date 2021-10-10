@@ -10,20 +10,20 @@ const Blog = () => {
   // console.log("Effect Blogs - ", threeBlog);
 
   return (
-    <div className="three-blog-container">
-      <div className="three-blog-container-inner ">
-        <h2 className="blog-title pt-3 font-t">
-          <i className="fas fa-pen-alt fa-lg"></i>Blog
+    <div className="three-card-container">
+      <div className="three-card-container-inner ">
+        <h2 className="card-text-title pt-3 font-t">
+          <i className="fas fa-pen-alt fa-lg"></i>Blogs
         </h2>
 
-        <div className="three-blog-manage text-center mt-4">
-          <div className="loaded-blog mb-4">
+        <div className="three-card-manage text-center mt-4">
+          <div className="loaded-card mb-4">
             {threeBlog.map((blog) => (
               <BlogPass blog={blog} key={blog.id}></BlogPass>
             ))}
           </div>
           <Link to="/blog-collection" className="common-btn resume-btn">
-            <i className="fas fa-book fa-lg"></i>More Blogs
+            <i className="fas fa-book fa-lg"></i>Read More{" "}
           </Link>
         </div>
       </div>

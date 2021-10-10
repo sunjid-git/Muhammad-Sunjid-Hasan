@@ -1,20 +1,20 @@
 /* ------------------------ Blog ---------------------------- */
-.three-blog-container {
+.three-card-container {
   padding: 3% 0;
 }
 
-.three-blog-container-inner {
+.three-card-container-inner {
   width: 80%;
   margin: 0 auto;
 }
 
-.blog-title {
+.card-text-title {
     font-weight: 750;
     font-size: 1.8rem;
     text-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
   }
 
-.loaded-blog {
+.loaded-card {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .loaded-blog{
+  .loaded-card{
     height: 100%;
    
     grid-template-columns: 1fr;
@@ -41,7 +41,7 @@
 /* ------------------------ BlogCollection ---------------------------- */
 
 @media screen and (max-width: 768px) {
-  .blog-title{
+  .card-title{
    text-align: center;
   }
 }

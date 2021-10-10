@@ -11,13 +11,13 @@ const BlogCollection = () => {
   // console.log('length', restBlog.length);
 
   return (
-    <div className="three-blog-container-inner">
-      <h2 className="blog-title pt-5 font-t">
+    <div className="three-card-container-inner">
+      <h2 className="card-title pt-5 font-t">
         <i className="fas fa-pen-alt fa-lg"></i>Blog
       </h2>
 
-      <div className="three-blog-manage text-center mt-4">
-        <div className="loaded-blog mb-4 pt-2">
+      <div className="three-card-manage text-center mt-4">
+        <div className="loaded-card mb-4 pt-2">
           {restBlog.map((blog) => (
             <BlogPass blog={blog} key={blog.id}></BlogPass>
           ))}

@@ -8,6 +8,7 @@ import Footer from "./components/HeaderFooter/Footer";
 import ContactPage from "./components/Contact/ContactPage";
 import Blog from "./components/Blog/Blog";
 import BlogCollection from "./components/Blog/BlogCollection";
+import ProjectCollection from "./components/Project/ProjectCollection";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/project" component={Project} />
         <Route path="/blog" component={Blog} />
         <Route path="/blog-collection" component={BlogCollection} />
+        <Route path="/project-collection" component={ProjectCollection} />
         <Route path="/contact" component={Contact} />
         <Route path="/contactPage" component={ContactPage} />
       </Switch>
