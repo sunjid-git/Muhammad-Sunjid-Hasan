@@ -13,7 +13,7 @@ const ProjectPass = (props) => {
   return (
     <div className="card mx-4" style={{ width: "20rem" }}>
       <div className="card-body">
-        <h5 className="card-title">{name}</h5>
+        <h5 className="card-title project-title-bold">{name}</h5>
         <img src={image} alt="Project Image"/>
         <div>
         <Link

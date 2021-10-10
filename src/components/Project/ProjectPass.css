@@ -3,3 +3,7 @@
     width: 100%;
     margin: 1rem 0;
 }
+
+.project-title-bold{
+    font-weight: bolder;
+}
