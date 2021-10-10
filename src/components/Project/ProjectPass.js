@@ -14,7 +14,7 @@ const ProjectPass = (props) => {
     <div className="card mx-4" style={{ width: "20rem" }}>
       <div className="card-body">
         <h5 className="card-title project-title-bold">{name}</h5>
-        <img src={imgURL} alt="Project Image"/>
+        <img src={imgURL} alt="Project"/>
         <div>
         <Link
           to={{ pathname: `${git}` }}
