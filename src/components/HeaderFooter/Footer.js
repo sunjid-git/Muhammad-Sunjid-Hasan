@@ -9,8 +9,7 @@ const Footer = () => {
       <footer>
         <p>Going-To-Internet</p>
         <p>
-          Social media network is just one click away. If you think i can be
-          any good for you. Let me through below medium.
+        Distance between me and you is just one click away. If you think I can be any good for you. Let me know through the social network media mentioned below.
         </p>
 
         <div className="social-links">

@@ -17,9 +17,7 @@ const About = () => {
           Hello, My name is <strong>Sunjid Hasan</strong>. I am a front-end web developer with a Bachelor's in Computer Science. As a keen individual, I have been developing my skills and enriched my profile. I count myself as a continuous learner and committed to developing myself.
         </p>
         <p>
-          If you like my works, Let me know - i am open to to communicate. May
-          be a simple chat clarify all the question which are buzzing in your
-          head...
+        If you like my works, Let me know - I am open to communicating. Maybe a simple chat can clarify all the questions which are buzzing in your head...
         </p>
 
         <Link
