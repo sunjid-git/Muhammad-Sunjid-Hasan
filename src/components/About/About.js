@@ -14,7 +14,7 @@ const About = () => {
         <p className="font-r text-title">Engineer & web developer</p>
 
         <p>
-          Hello, My name is <strong>Sunjid Hasan</strong>. I am a front-end web developer with a Bachelor's in Computer Science. As a keen individual, I have been developing my skills and enriched my profile with some projects. I count myself as a continuous learner and committed to developing myself.
+          Hello, My name is <strong>Sunjid Hasan</strong>. I am a front-end web developer with a Bachelor's in Computer Science. As a keen individual, I have been developing my skills and enriched my profile. I count myself as a continuous learner and committed to developing myself.
         </p>
         <p>
           If you like my works, Let me know - i am open to to communicate. May

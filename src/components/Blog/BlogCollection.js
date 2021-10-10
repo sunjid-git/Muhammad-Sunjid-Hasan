@@ -13,22 +13,19 @@ const BlogCollection = () => {
   // console.log('length', restBlog.length);
 
   return (
-    <div className="blog-main-container">
-    <div className="blog-container">
-      <p><i className="fas fa-marker fa-lg"></i>Blog </p>
-      <div className="blog-inner-container text-center">
-      <div className=" d-flex text-center my-4">
-        {restBlog.map((blog) => (
-          <BlogPass blog={blog} key={blog.id}></BlogPass>
-        ))}
-        
-      </div>
-      <Link to="/blog-collection" className="common-btn resume-btn">
-      <i className="fas fa-book fa-lg"></i>More Blogs
-      </Link>
+    <div className="three-blog-container-inner">
+      <h2 className="blog-title pt-5 font-t">
+        <i className="fas fa-pen-alt fa-lg"></i>Blog
+      </h2>
+
+      <div className="three-blog-manage text-center mt-4">
+        <div className="loaded-blog mb-4 pt-2">
+          {restBlog.map((blog) => (
+            <BlogPass blog={blog} key={blog.id}></BlogPass>
+          ))}
+        </div>
       </div>
     </div>
-  </div>
   );
 };
 

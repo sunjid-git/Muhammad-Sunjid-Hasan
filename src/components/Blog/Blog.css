@@ -6,11 +6,6 @@
   width: 80%;
   margin: 0 auto;
 }
-.loaded-blog {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 .blog-title {
     font-weight: 750;
@@ -18,8 +13,20 @@
     text-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
   }
 
-@media screen and (max-width: 928px) {
-  .loaded-blog {
-    flex-direction: column;
+
+.loaded-blog {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 768px) {
+  .loaded-blog{
+    height: 100%;
+   
+    grid-template-columns: 1fr;
   }
 }
