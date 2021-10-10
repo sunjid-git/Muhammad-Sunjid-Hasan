@@ -1,0 +1,21 @@
+.social-side-icon nav ul a {
+  display: flex;
+  margin: 0.8rem 0;
+  text-decoration: none;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.social-side-icon nav ul a i {
+    color: #7e7878;
+  font-size: 2.75rem;
+  text-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+
+.social-side-icon nav ul a i:hover {
+  color: #373535;
+  text-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px;
+}

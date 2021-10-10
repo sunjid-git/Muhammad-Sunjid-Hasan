@@ -12,7 +12,7 @@ const Project = () => {
     <div className="three-card-container">
     <div className="three-card-container-inner ">
       <h2 className="card-text-title pt-3 font-t">
-        <i className="fas fa-pen-alt fa-lg"></i>Projects
+      <i className="fas fa-tools fa-lg"></i>Projects
       </h2>
 
       <div className="three-card-manage text-center mt-4">

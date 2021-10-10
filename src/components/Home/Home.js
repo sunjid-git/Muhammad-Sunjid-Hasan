@@ -8,6 +8,7 @@ import HomePage from "./HomePage";
 const Home = () => {
   return (
     <>
+    
       <HomePage />
       <About />
       <Project />

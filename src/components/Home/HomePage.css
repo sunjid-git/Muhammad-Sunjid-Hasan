@@ -54,6 +54,15 @@
   line-height: 0px;
 }
 
+
+/* side-link */
+.side-link{
+  position:fixed;
+  top: 50%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-60%, -50%);
+}
 @media screen and (max-width: 768px) {
   .home-page {
     height: 100%;
@@ -84,6 +93,17 @@
     justify-content: center;
     align-items: center;
   }
+
+  .side-link{
+  
+    
+      left: 8%;
+      top: 50%;
+        left: 5%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      
+  }
 }
 
 /* typing effect with the help of code - pen*/
@@ -111,3 +131,4 @@
     border-right: 2px solid #383639;
   }
 }
+
