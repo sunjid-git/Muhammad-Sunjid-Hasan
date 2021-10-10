@@ -4,76 +4,76 @@
        "name":"Surokkha Website Clone",
        "git":"https://github.com/sunjid-git/surokkha-web",
        "live":"https://surokkha-web.netlify.app/",
-       "image":"https://i.ibb.co/6wVbH7D/1.png"
+       "imgURL":"https://i.ibb.co/6wVbH7D/1.png"
     },
     {
         "id":1,
         "name":"Style Hut",
         "git":"https://github.com/sunjid-git/style-hut",
         "live":"https://style-hut.netlify.app/",
-        "image":"https://i.ibb.co/PDK0vKc/2.png"
+        "imgURL":"https://i.ibb.co/PDK0vKc/2.png"
     },
     {
         "id":2,
         "name":"Crypto Stock",
         "git":"https://github.com/sunjid-git/crypto-stock",
         "live":"https://crypto-stock.netlify.app/",
-        "image":"https://i.ibb.co/XFN1XPp/3.png"
+        "imgURL":"https://i.ibb.co/XFN1XPp/3.png"
     },
     {
         "id":4,
         "name":"Sports Mania",
         "git":"https://github.com/sunjid-git/sports-mania",
         "live":"https://sports-mania-web.netlify.app/",
-        "image":"https://i.ibb.co/JmqWSk6/6.png"
+        "imgURL":"https://i.ibb.co/JmqWSk6/6.png"
     },
     {
         "id":5,
         "name":"Bengal It Plus",
         "git":"https://github.com/sunjid-git/bengal-it-plus",
         "live":"https://bengal-it-plus.web.app/",
-        "image":"https://i.ibb.co/yBs0PQL/4.png"
+        "imgURL":"https://i.ibb.co/yBs0PQL/4.png"
     },
     {
         "id":6,
         "name":"Figma To Code",
         "git":"https://github.com/sunjid-git/FigmaToWebsitePracticeOne",
         "live":"https://sunjid-git.github.io/FigmaToWebsitePracticeOne/index.html",
-        "image":"https://i.ibb.co/8DF56X1/7.png"
+        "imgURL":"https://i.ibb.co/8DF56X1/7.png"
     },
     {
         "id":7,
         "name":"Elite Soccer Craze",
         "git":"https://github.com/sunjid-git/elite-soccer-craze",
         "live":"https://elite-soccer-craze.netlify.app/",
-        "image":"https://i.ibb.co/CzwbXqp/8.png"
+        "imgURL":"https://i.ibb.co/CzwbXqp/8.png"
     },
     {
        "id":8,
        "name":"Weather Check",
        "git":"https://github.com/sunjid-git/weatherCheck",
        "live":"https://sunjid-git.github.io/weatherCheck/",
-       "image":"https://i.ibb.co/VTtPX3z/10.png"
+       "imgURL":"https://i.ibb.co/VTtPX3z/10.png"
     },
     {
         "id":9,
         "name":"Pizza Con",
         "git":"https://github.com/sunjid-git/pizza-con",
         "live":"https://pizza-con.netlify.app/",
-        "image":"https://i.ibb.co/dGffsM7/5.png"
+        "imgURL":"https://i.ibb.co/dGffsM7/5.png"
     },
     {
         "id":10,
         "name":"Bengal Transport",
         "git":"https://github.com/sunjid-git/bengal-transport",
         "live":"https://keen-lewin-28a3ed.netlify.app/",
-        "image":"https://i.ibb.co/CHcpBNt/12.png"
+        "imgURL":"https://i.ibb.co/CHcpBNt/12.png"
     },
     {
        "id":11,
        "name":"Bengal Shop",
        "git":"https://github.com/sunjid-git/bengal-shop-client",
        "live":"https://bengalshop-buy.web.app/home",
-       "image":"https://i.ibb.co/BCBTrqR/11.png"
+       "imgURL":"https://i.ibb.co/BCBTrqR/11.png"
     }
  ]

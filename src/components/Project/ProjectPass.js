@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const ProjectPass = (props) => {
   // console.log(props);
-  const { name, git,live, image } = props.blog;
+  const { name, git,live, imgURL } = props.blog;
   // console.log(name);
   // console.log(git);
   // console.log(live);
@@ -14,7 +14,7 @@ const ProjectPass = (props) => {
     <div className="card mx-4" style={{ width: "20rem" }}>
       <div className="card-body">
         <h5 className="card-title project-title-bold">{name}</h5>
-        <img src={image} alt="Project Image"/>
+        <img src={imgURL} alt="Project Image"/>
         <div>
         <Link
           to={{ pathname: `${git}` }}
