@@ -11,7 +11,7 @@ const ProjectCollection = () => {
 
   return (
     <div className="three-card-container-inner">
-      <h1 className="blog-title pt-5 font-t">
+      <h1 className="card-text-title pt-5 font-t">
         <i className="fas fa-pen-alt fa-lg"></i>Project
       </h1>
 

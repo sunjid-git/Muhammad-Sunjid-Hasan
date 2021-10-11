@@ -12,7 +12,7 @@ const BlogCollection = () => {
 
   return (
     <div className="three-card-container-inner">
-      <h2 className="card-title pt-5 font-t">
+      <h2 className="card-text-title pt-5 font-t">
         <i className="fas fa-pen-alt fa-lg"></i>Blog
       </h2>
 
